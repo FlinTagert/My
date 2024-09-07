@@ -1,0 +1,9 @@
+echo "# My" >> README.md 
+git init
+git add README.md 
+git commit -m "первая фиксация"
+ветка git -M основная
+git remote add origin https://github.com/FlinTagert/My.git
+git push -u origin main
+git commit -m "Комментарий к коммиту"
+git push
